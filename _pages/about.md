@@ -1,13 +1,12 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Hi there, welcome to Haoran’s GitHub page! 👋"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# Hi there, welcome to Haoran’s GitHub page! 👋
 
 I’m currently a Master’s student in Computer Science, with a primary focus on **Computer Vision (CV)**. I’m also deeply interested in **AIGC-D** and **Multimodal Large Language Models (MLLM)**, continuously exploring cutting-edge topics in these fields.
 
