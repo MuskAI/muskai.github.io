@@ -23,9 +23,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Haoran"
+  name             : "Haoran Chen"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Stay hungry, stay foolish"
   location         : "Hangzhou, Zhejiang"
   employer         : "ZJSU"
   uri              : # URL
