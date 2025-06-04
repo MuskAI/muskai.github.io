@@ -26,7 +26,3 @@ I’m currently a Master’s student in Computer Science, with a primary focus o
     </a>
 
 If you share similar interests, feel free to connect. Let’s collaborate and explore new ideas in the realm of AI!
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=MuskAI)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MuskAI&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
