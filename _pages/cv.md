@@ -1,10 +1,8 @@
 ---
-layout: archive
-title: "CV"
+layout: null
+title: "Page Not Found"
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+redirect_to: /404.html
 ---
 
 {% include base_path %}

@@ -1,10 +1,8 @@
 ---
+layout: null
+title: "Page Not Found"
 permalink: /markdown/
-title: "Markdown"
-author_profile: true
-redirect_from: 
-  - /md/
-  - /markdown.html
+redirect_to: /404.html
 ---
 
 ## Locations of key files/directories
