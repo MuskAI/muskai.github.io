@@ -7,7 +7,7 @@ excerpt: 'This paper presents a comprehensive study on visual layer selection st
 date: 2025
 venue: 'EMNLP 2025 Main'
 paperurl: 'https://arxiv.org/abs/2504.21447'
-Authors: '<strong>Haoran Chen</strong>, Junyan Lin, Xinhao Chen, Yue Fan, Xin Jin, Hui Su, Jianfeng Dong, Jinlan Fu, Xiaoyu Shen'
+citation: '<strong>Haoran Chen</strong>, Junyan Lin, Xinhao Chen, Yue Fan, Xin Jin, Hui Su, Jianfeng Dong, Jinlan Fu, Xiaoyu Shen. (2025). &quot;Rethinking Visual Layer Selection in Multimodal LLMs.&quot; <i>EMNLP 2025 Main</i>.'
 ---
 
 This paper presents a comprehensive study on visual layer selection strategies in Multimodal Large Language Models.
