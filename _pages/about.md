@@ -28,6 +28,14 @@ If you share similar interests, feel free to connect. Let's collaborate and expl
 
 ---
 
+## News
+
+- **2025-08**: One paper accepted on EMNLP 2025! 🎉
+- **2025-03**: One paper accepted on CVPR 2025! 🎉
+- **2024-09**: One paper accepted on EMNLP 2024! 🎉
+
+---
+
 ## Publications
 
 Most recent publications on Google Scholar.  
@@ -39,14 +47,6 @@ Most recent publications on Google Scholar.
 {{ post.venue }}. [<a href="{{ post.paperurl }}" target="_blank">link</a>]{% if post.code %} [<a href="{{ post.code }}" target="_blank">code</a>]{% endif %}
 
 {% endfor %}
-
----
-
-## News
-
-- **2025-08**: One paper accepted on EMNLP 2025! 🎉
-- **2025-03**: One paper accepted on CVPR 2025! 🎉
-- **2024-09**: One paper accepted on EMNLP 2024! 🎉
 
 ---
 
