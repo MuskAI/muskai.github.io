@@ -30,9 +30,9 @@ If you share similar interests, feel free to connect. Let's collaborate and expl
 
 ## News
 
-- **2025-08**: One paper accepted on EMNLP 2025! 🎉
+- **2025-08**: One paper accepted on EMNLP 2025 Main (Oral)! 🎉
 - **2025-03**: One paper accepted on CVPR 2025! 🎉
-- **2024-09**: One paper accepted on EMNLP 2024! 🎉
+- **2024-09**: One paper accepted on EMNLP 2024 Main! 🎉
 
 ---
 
