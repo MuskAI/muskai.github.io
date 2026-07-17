@@ -53,6 +53,9 @@ Most recent publications on Google Scholar.
 
 ## Service
 
+### Conference Service
+- **2026**: Volunteer for EMNLP 2026 as an Oral Room Monitor and Poster Assistant
+
 ### Teaching Assistant Activities
 - **2024**: Teaching Assistant for "Fundamentals and Applications of Artificial Intelligence" course
 - **2024**: Teaching Assistant for "Decrypting DeepSeek: From Basics to Creative Practice" course
