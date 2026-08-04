@@ -54,6 +54,7 @@ Most recent publications on Google Scholar.
 ## Service
 
 ### Conference Service
+- **2026**: Reviewer for ACM CIKM 2026
 - **2026**: Volunteer for EMNLP 2026 as an Oral Room Monitor and Poster Assistant
 
 ### Teaching Assistant Activities
