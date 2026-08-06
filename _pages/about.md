@@ -63,4 +63,8 @@ Most recent publications on Google Scholar.
 
 ---
 
+## 📊 Website Statistics
+
+The visitor map below shows the geographic distribution of visits to this website.
+
 <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=a&t=tt&d=AoMJtob2wKXNCKClN-BciKh0wc-2t7ga6-CpqzUwhH8&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353'></script>
