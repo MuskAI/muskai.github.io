@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://muskai.github.io/sitemap.xml
