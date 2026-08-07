@@ -11,14 +11,15 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Haoran Chen is a computer science master's student researching multimodal language models, computer vision, and AI-generated content detection.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> academic theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: computer vision, multimodal language models, AI-generated content detection, academic website
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://muskai.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -52,7 +53,7 @@ external_services:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: false
+footer_fixed: true
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
@@ -147,6 +148,10 @@ collections:
   news:
     defaults:
       layout: post
+    output: true
+  projects:
+    output: true
+  teachings:
     output: true
 
 # -----------------------------------------------------------------------------
@@ -389,7 +394,7 @@ enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: false # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: false # enables a horizontal progress bar linked to the vertical scroll position
+enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------
