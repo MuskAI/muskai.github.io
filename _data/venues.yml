@@ -1,0 +1,7 @@
+EMNLP:
+  url: https://aclanthology.org/venues/emnlp/
+  color: "#006d77"
+
+CVPR:
+  url: https://cvpr.thecvf.com/
+  color: "#006d77"
