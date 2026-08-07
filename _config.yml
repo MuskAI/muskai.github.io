@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Haoran's blog"
+title                    : "Haoran Chen"
 title_separator          : "-"
 name                     : &name "Haoran Chen"
-description              : &description "Stay hungry, stay foolish"
+description              : &description "Haoran Chen is a computer science master's student researching computer vision, multimodal language models, and AI-generated content detection."
 url                      : https://muskai.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "MuskAI/muskai.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Haoran Chen"
   pronouns         : # example: "she/her"  
-  bio              : "Stay hungry, stay foolish"
+  bio              : "Computer vision, multimodal learning, and AIGC detection"
   location         : "Hangzhou, Zhejiang"
-  employer         : "ZJSU"
+  employer         : "Zhejiang Gongshang University"
   uri              : # URL
   email            : "haoranchr@163.com" 
 
@@ -137,13 +137,15 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "profile.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Haoran Chen"
+  links:
+    - "https://scholar.google.com/citations?user=o6krwYkAAAAJ&hl=en"
+    - "https://github.com/MuskAI"
 
 
 # Analytics

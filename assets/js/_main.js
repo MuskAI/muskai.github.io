@@ -19,9 +19,17 @@ $(document).ready(function () {
     if (use_theme === "dark") {
       $("html").attr("data-theme", "dark");
       $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
+      $("#theme-toggle a").attr({
+        "aria-label": "Switch to light theme",
+        "aria-pressed": "true"
+      });
     } else if (use_theme === "light") {
       $("html").removeAttr("data-theme");
       $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
+      $("#theme-toggle a").attr({
+        "aria-label": "Switch to dark theme",
+        "aria-pressed": "false"
+      });
     }
   };
 
@@ -37,7 +45,8 @@ $(document).ready(function () {
     });
 
   // Toggle the theme manually
-  var toggleTheme = function () {
+  var toggleTheme = function (event) {
+    event.preventDefault();
     const current_theme = $("html").attr("data-theme");
     const new_theme = current_theme === "dark" ? "light" : "dark";
     localStorage.setItem("theme", new_theme);

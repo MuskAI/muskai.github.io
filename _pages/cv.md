@@ -1,62 +1,52 @@
 ---
-layout: null
-title: "Page Not Found"
+layout: single
+title: "Curriculum Vitae"
 permalink: /cv/
-redirect_to: /404.html
+description: "Curriculum vitae of Haoran Chen, a computer science master's student working on computer vision and multimodal learning."
+author_profile: true
+redirect_from:
+  - /resume
 ---
 
-{% include base_path %}
+Haoran Chen is a Master's student in Computer Science at Zhejiang Gongshang University. His research focuses on computer vision, multimodal language models, and AI-generated content detection.
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Master's student in Computer Science**<br>
+Zhejiang Gongshang University
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Research Interests
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- Computer Vision
+- Multimodal Language Models
+- AI-Generated Content Detection
+- Deep Learning
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Publications
+
+{% assign cv_publications = site.publications | sort: "date" | reverse %}
+{% for post in cv_publications %}
+### [{{ post.title }}]({{ post.paperurl }})
+
+{{ post.authors | replace: 'Haoran Chen', '<strong>Haoran Chen</strong>' }}<br>
+**{{ post.venue }}**
+
+{% endfor %}
+
+<span class="small"><span aria-hidden="true">*</span> Equal contribution.</span>
+
+## Academic Service
+
+- **2026:** Reviewer for ACM CIKM 2026
+- **2026:** Volunteer for EMNLP 2026 as an Oral Room Monitor and Poster Assistant
+
+## Teaching
+
+- **2024:** Teaching Assistant, Fundamentals and Applications of Artificial Intelligence
+- **2024:** Teaching Assistant, Decrypting DeepSeek: From Basics to Creative Practice
+
+## Contact
+
+- [Email](mailto:haoranchr@163.com)
+- [Google Scholar](https://scholar.google.com/citations?user=o6krwYkAAAAJ&hl=en)
+- [GitHub](https://github.com/MuskAI)
