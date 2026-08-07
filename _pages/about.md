@@ -33,6 +33,22 @@ redirect_from:
   </div>
 </section>
 
+<section class="home-section" id="goals">
+  <h2>Goals &amp; Plans</h2>
+  <div class="goals-layout">
+    <div class="goals-list">
+      <p>Bring <strong>"ai"</strong> (a Chinese pinyin meaning "love") and AI to the world.</p>
+      <p>Expand AI services to millions of people through commercial applications.</p>
+      <p>Share findings and insights from my research journey to advance practical applications.</p>
+    </div>
+    <aside class="collaboration-note" aria-labelledby="collaboration-title">
+      <h3 id="collaboration-title">Open to Discussion</h3>
+      <p>Always up for knowledge sharing and potential collaborations.</p>
+      <p class="collaboration-note__invitation">If you share similar interests, feel free to connect. Let's collaborate and explore new ideas in the realm of AI!</p>
+    </aside>
+  </div>
+</section>
+
 <section class="home-section" id="news">
   <h2>News</h2>
   <ol class="home-news" aria-label="Recent news">
