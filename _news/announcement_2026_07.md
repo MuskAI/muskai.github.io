@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-✅ One paper accepted to ACM MM 2026.
+🎉 One paper accepted to ACM MM 2026.
