@@ -51,6 +51,10 @@
   }
 }
 
+html[data-theme="dark"] .visitor-map__frame iframe {
+  filter: invert(0.8) hue-rotate(180deg);
+}
+
 @include breakpoint(max-width $small) {
   .visitor-map__frame {
     height: 20rem;
