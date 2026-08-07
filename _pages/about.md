@@ -60,9 +60,3 @@ Most recent publications on Google Scholar.
 ### Teaching Assistant Activities
 - **2024**: Teaching Assistant for "Fundamentals and Applications of Artificial Intelligence" course
 - **2024**: Teaching Assistant for "Decrypting DeepSeek: From Basics to Creative Practice" course
-
----
-
-## 📊 Website Statistics
-
-{% include website-statistics.html %}
