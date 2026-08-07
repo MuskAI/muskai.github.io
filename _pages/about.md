@@ -11,8 +11,6 @@ profile:
   image_circular: false
   more_info: >
     <p class="profile-motto">Stay hungry, Stay foolish.</p>
-    <p class="profile-detail">Zhejiang Gongshang University</p>
-    <p class="profile-detail">Hangzhou, Zhejiang</p>
 
 selected_papers: true
 social: true
