@@ -9,21 +9,60 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-publications",
           title: "publications",
           description: "Selected peer-reviewed publications by Haoran Chen on multimodal language models and visual representation.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Research projects on multimodal language models and visual representation.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "Selected open-source projects and research resources.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "Curriculum vitae of Haoran Chen, a computer science master&#39;s student working on multimodal learning and computer vision.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-one-paper-accepted-to-emnlp-2024-main",
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Teaching assistant experience in artificial intelligence courses.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "post-a-research-thread-on-visual-information-in-multimodal-llms",
+        
+          title: "a research thread on visual information in multimodal LLMs",
+        
+        description: "Three connected studies on visual layer selection, feature fusion, and connector design.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/visual-information-in-multimodal-llms/";
+          
+        },
+      },{id: "news-one-paper-accepted-to-emnlp-2024-main",
           title: '📄 One paper accepted to EMNLP 2024 Main.',
           description: "",
           section: "News",},{id: "news-one-paper-accepted-to-cvpr-2025",
@@ -35,7 +74,32 @@ ninja.data = [{
           section: "News",},{id: "news-one-paper-accepted-to-acm-mm-2026",
           title: '🎉 One paper accepted to ACM MM 2026.',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-connector-selection",
+          title: 'Connector Selection',
+          description: "Analyzing how visual-language connectors preserve or compress information in multimodal models.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/connector-selection/";
+            },},{id: "projects-multi-layer-feature-fusion",
+          title: 'Multi-Layer Feature Fusion',
+          description: "Comparing methods for combining complementary visual features across encoder layers.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/multi-layer-feature-fusion/";
+            },},{id: "projects-visual-layer-selection",
+          title: 'Visual Layer Selection',
+          description: "Studying which visual encoder layers provide the most useful signals for multimodal language models.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/visual-layer-selection/";
+            },},{id: "teachings-decrypting-deepseek-from-basics-to-creative-practice",
+          title: 'Decrypting DeepSeek: From Basics to Creative Practice',
+          description: "Supported a course introducing DeepSeek from foundational concepts to creative applications.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/decrypting-deepseek/";
+            },},{id: "teachings-fundamentals-and-applications-of-artificial-intelligence",
+          title: 'Fundamentals and Applications of Artificial Intelligence',
+          description: "Supported course instruction for fundamentals and practical applications of artificial intelligence.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/fundamentals-and-applications-of-ai/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
