@@ -1,0 +1,16 @@
+{% assign visitor_map_url = site.analytics.umami.public_map_url %}
+{% if visitor_map_url %}
+<div class="visitor-map">
+  <div class="visitor-map__frame">
+    <iframe
+      src="{{ visitor_map_url }}"
+      title="World map of website visitors by country"
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  <p class="visitor-map__meta">
+    <span>Country-level visitor data is aggregated by Umami without advertising cookies.</span>
+    <a href="{{ visitor_map_url }}" target="_blank" rel="noopener noreferrer">Open full map</a>
+  </p>
+</div>
+{% endif %}

@@ -1,0 +1,67 @@
+/* ==========================================================================
+   VISITOR MAP
+   ========================================================================== */
+
+.visitor-map {
+  margin: 1.25em 0 2em;
+}
+
+.visitor-map__frame {
+  position: relative;
+  width: 100%;
+  height: clamp(20rem, 78vw, 35rem);
+  overflow: hidden;
+  border-radius: $border-radius;
+  background: var(--global-footer-bg-color);
+
+  &::before {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    color: var(--global-text-color-light);
+    font-size: $type-size-6;
+    content: "Loading visitor map...";
+  }
+
+  iframe {
+    // Crop the board header and controls so the embed shows only the map component.
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: calc(100% + 1.5rem);
+    height: calc(100% + 13.25rem);
+    border: 0;
+    background: var(--global-bg-color);
+    transform: translate(-0.75rem, -13.25rem);
+  }
+}
+
+.visitor-map__meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+  margin-top: 0.65rem !important;
+  color: var(--global-text-color-light);
+  font-size: $type-size-6 !important;
+
+  a {
+    flex: 0 0 auto;
+  }
+}
+
+@include breakpoint(max-width $small) {
+  .visitor-map__frame {
+    height: 20rem;
+  }
+
+  .visitor-map__meta {
+    display: block;
+
+    a {
+      display: inline-block;
+      margin-top: 0.35rem;
+    }
+  }
+}
