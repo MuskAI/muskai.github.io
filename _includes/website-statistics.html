@@ -1,0 +1,48 @@
+<section class="analytics-observatory" aria-labelledby="analytics-observatory-title">
+  <div class="analytics-observatory__hero">
+    <div class="analytics-observatory__copy">
+      <span class="analytics-observatory__eyebrow">
+        <span class="analytics-observatory__pulse" aria-hidden="true"></span>
+        Live telemetry
+      </span>
+      <h3 id="analytics-observatory-title">A quiet view of this site's reach.</h3>
+      <p>Anonymous traffic insights are collected without advertising cookies or cross-site profiles.</p>
+    </div>
+
+    <div class="analytics-observatory__signal" aria-hidden="true">
+      <svg viewBox="0 0 280 96" role="img">
+        <defs>
+          <linearGradient id="analytics-signal-gradient" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="currentColor" stop-opacity="0"></stop>
+            <stop offset="45%" stop-color="currentColor" stop-opacity="0.55"></stop>
+            <stop offset="100%" stop-color="currentColor"></stop>
+          </linearGradient>
+        </defs>
+        <path d="M0 58 C26 58 28 58 42 58 C56 58 58 24 72 24 C86 24 88 72 102 72 C116 72 118 44 132 44 C146 44 148 58 162 58 C176 58 178 18 192 18 C206 18 208 64 222 64 C236 64 238 42 252 42 C266 42 268 42 280 42"
+              fill="none" stroke="url(#analytics-signal-gradient)" stroke-width="2.5" stroke-linecap="round"></path>
+        <circle cx="252" cy="42" r="4" fill="currentColor"></circle>
+      </svg>
+    </div>
+  </div>
+
+  <dl class="analytics-observatory__ledger">
+    <div>
+      <dt>Data source</dt>
+      <dd>Umami Cloud</dd>
+    </div>
+    <div>
+      <dt>Status</dt>
+      <dd><span class="analytics-observatory__status-dot" aria-hidden="true"></span>Collecting</dd>
+    </div>
+    <div>
+      <dt>Privacy</dt>
+      <dd>Cookie-free</dd>
+    </div>
+  </dl>
+
+  <a class="analytics-observatory__link"
+     href="{{ '/analytics/' | relative_url }}"
+     data-umami-event="open-public-analytics">
+    Explore website analytics <span aria-hidden="true">↗</span>
+  </a>
+</section>

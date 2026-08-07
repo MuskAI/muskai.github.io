@@ -65,15 +65,4 @@ Most recent publications on Google Scholar.
 
 ## 📊 Website Statistics
 
-<div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; margin: 1rem 0; padding: 1rem 1.25rem; border: 1px solid rgba(127, 127, 127, 0.35); border-radius: 8px;">
-  <div aria-hidden="true" style="font-size: 2rem; line-height: 1;">🌍</div>
-  <div style="min-width: 0;">
-    <strong>Live visitor counter</strong>
-    <a href="https://hits.sh/muskai.github.io/" target="_blank" rel="noopener noreferrer" aria-label="View detailed website visit statistics">
-      <img src="https://hits.sh/muskai.github.io.svg?view=today-total&amp;style=for-the-badge&amp;label=Website%20Visits&amp;color=2d78ad" alt="Website visits: today and total" style="display: block; max-width: 100%; height: auto; margin: 0.55rem 0 0.35rem;">
-    </a>
-    <small>Today's page views / total page views · Tracking since August 2026</small>
-  </div>
-</div>
-
-<noscript>The visit counter is provided as an image and requires image loading to be enabled.</noscript>
+{% include website-statistics.html %}
