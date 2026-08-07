@@ -10,8 +10,9 @@ profile:
   image: profile.png
   image_circular: false
   more_info: >
-    <p>Zhejiang Gongshang University</p>
-    <p>Hangzhou, Zhejiang</p>
+    <p class="profile-motto">Stay hungry, Stay foolish.</p>
+    <p class="profile-detail">Zhejiang Gongshang University</p>
+    <p class="profile-detail">Hangzhou, Zhejiang</p>
 
 selected_papers: true
 social: true
@@ -44,3 +45,34 @@ I am a Master's student in Computer Science at Zhejiang Gongshang University. My
 ## open to discussion
 
 Always up for knowledge sharing and potential collaborations. If you share similar interests, feel free to connect. Let's collaborate and explore new ideas in the realm of AI!
+
+## academic service & teaching
+
+<div class="about-experience">
+  <section class="about-experience__group" aria-labelledby="academic-service-title">
+    <h3 id="academic-service-title">academic service</h3>
+    <ul>
+      <li>
+        <time datetime="2026">2026</time>
+        <span><strong>Reviewer</strong><small>ACM CIKM 2026</small></span>
+      </li>
+      <li>
+        <time datetime="2026">2026</time>
+        <span><strong>Oral Room Monitor and Poster Assistant</strong><small>EMNLP 2026</small></span>
+      </li>
+    </ul>
+  </section>
+  <section class="about-experience__group" aria-labelledby="teaching-title">
+    <h3 id="teaching-title">teaching</h3>
+    <ul>
+      <li>
+        <time datetime="2024">2024</time>
+        <span><strong>Teaching Assistant</strong><small>Fundamentals and Applications of Artificial Intelligence</small></span>
+      </li>
+      <li>
+        <time datetime="2024">2024</time>
+        <span><strong>Teaching Assistant</strong><small>Decrypting DeepSeek: From Basics to Creative Practice</small></span>
+      </li>
+    </ul>
+  </section>
+</div>

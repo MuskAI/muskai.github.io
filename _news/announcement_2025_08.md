@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎤 One paper accepted to EMNLP 2025 Main as an oral presentation.
+🎙️ One paper accepted to EMNLP 2025 Main as an oral presentation.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📄 One paper accepted to EMNLP 2024 Main.
+✅ One paper accepted to EMNLP 2024 Main.
