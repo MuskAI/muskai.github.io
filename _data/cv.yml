@@ -1,0 +1,66 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Haoran Chen
+    - name: Affiliation
+      value: Zhejiang Gongshang University
+    - name: Location
+      value: Hangzhou, Zhejiang
+    - name: Email
+      value: <a href="mailto:haoranchr@163.com">haoranchr@163.com</a>
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Master's Student in Computer Science
+      institution: Zhejiang Gongshang University
+      year: Current
+      description:
+        - Research in computer vision, multimodal language models, and AI-generated content detection.
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Multimodal Language Models
+      items:
+        - Visual layer selection
+        - Multi-layer visual feature fusion
+        - Visual-language connector design
+    - title: AI-Generated Content Detection
+      items:
+        - Robust and generalizable detection methods
+        - Synthetic media analysis
+
+- title: Selected Publications
+  type: time_table
+  contents:
+    - title: <a href="https://aclanthology.org/2025.emnlp-main.339/">Multimodal Language Models See Better When They Look Shallower</a>
+      institution: EMNLP 2025 Main (Oral)
+      year: 2025
+    - title: <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Lin_Multi-Layer_Visual_Feature_Fusion_in_Multimodal_LLMs_Methods_Analysis_and_CVPR_2025_paper.html">Multi-Layer Visual Feature Fusion in Multimodal LLMs</a>
+      institution: CVPR 2025
+      year: 2025
+    - title: <a href="https://arxiv.org/abs/2410.06765">To Preserve or To Compress</a>
+      institution: EMNLP 2024 Main
+      year: 2024
+
+- title: Academic Service
+  type: time_table
+  contents:
+    - title: Reviewer
+      institution: ACM CIKM 2026
+      year: 2026
+    - title: Oral Room Monitor and Poster Assistant
+      institution: EMNLP 2026
+      year: 2026
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Teaching Assistant
+      institution: Fundamentals and Applications of Artificial Intelligence
+      year: 2024
+    - title: Teaching Assistant
+      institution: "Decrypting DeepSeek: From Basics to Creative Practice"
+      year: 2024
