@@ -7,6 +7,10 @@ excerpt: 'This paper presents a comprehensive study on visual layer selection st
 date: 2025-09-01
 venue: 'EMNLP 2025 Main (Oral)'
 authors: 'Haoran Chen, Junyan Lin, Xinhao Chen, Yue Fan, Xin Jin, Hui Su, Jianfeng Dong, Jinlan Fu, Xiaoyu Shen'
+teaser: '/images/publications/emnlp-2025-visual-layers.png'
+teaser_alt: 'Heatmap of visual layer similarity and line chart of layer-wise task performance.'
+teaser_width: 964
+teaser_height: 482
 paperurl: 'https://aclanthology.org/2025.emnlp-main.339/'
 videourl: 'https://underline.io/events/502/sessions/20780/lecture/130091-multimodal-language-models-see-better-when-they-look-shallower'
 slideurl: 'https://assets.underline.io/lecture/130091/slideshow/98d029451bc5f71bb48eb4c885e8dd2a.pdf?Expires=1762758460&Signature=XQiToBE88fcTsg6zxrJRVtywROlO6WbKsZSUwQ028dPLPHC4IhW10GQX8f0y7FoIYvEch1AgtDq0qa4zdHmFHiT~Rlr6dmKQTQZKe36~TMcZCK1jPhcHcLhbBEI8KMdHd0eSemR0KKZukbr4X6FhnFo5VqQV664glE10VtpfzW3BIUes~PCMuevcre3ZZ1ZXgQVdxhZI3CZj4-~n-d0R8Qjg5eOecE1KWQGA2~OI1Rdk2lZCPCu~YRY0MwukoWmBVLr8jaPrhxIc16t7jOWiqsghpaBkls72ESEOaEI9AJPz4nsxydw885tqq8XYqItasqcMsg4YjTtDM2pNrqyu9g__&Key-Pair-Id=K2CNXR0DE4O7J0'
