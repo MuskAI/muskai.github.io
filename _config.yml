@@ -152,7 +152,6 @@ analytics:
   umami:
     website_id           : "9ed140e9-ccff-42fd-b866-f15b28bff88a"
     script_url           : "https://cloud.umami.is/script.js"
-    public_map_url       : "https://cloud.umami.is/analytics/us/share/ImdwNe2fjjvtVDSo?date=30day"
 
 
 # Reading Files
