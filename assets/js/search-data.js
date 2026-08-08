@@ -65,6 +65,11 @@ ninja.data = [{
           description: "Analyzing how visual-language connectors preserve or compress information in multimodal models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/connector-selection/";
+            },},{id: "projects-企管星-专家智能体",
+          title: '企管星 · 专家智能体',
+          description: "An enterprise expert-agent platform offering domain-specific guidance across management, finance, technology, production, and lean operations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/expert-agent/";
             },},{id: "projects-慧鉴ai",
           title: '慧鉴AI',
           description: "A digital content forensics agent combining rapid screening, multi-source review, and evidence reporting for images, videos, and documents.",
