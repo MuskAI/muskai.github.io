@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="post project-detail">
+  <a class="project-detail__back" href="{{ '/projects/' | relative_url }}">
+    <i class="ti ti-arrow-left" aria-hidden="true"></i>
+    <span>All projects</span>
+  </a>
+
+  <header class="post-header project-detail__header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+
+    {% if page.links %}
+      <nav class="project-detail__links" aria-label="Project links">
+        {% for link in page.links %}
+          <a
+            class="project-detail__link{% if link.primary %} project-detail__link--primary{% endif %}"
+            href="{{ link.url }}"
+            target="_blank"
+            rel="external nofollow noopener"
+          >
+            {{ link.label }}
+            <i class="ti ti-arrow-up-right" aria-hidden="true"></i>
+          </a>
+        {% endfor %}
+      </nav>
+    {% endif %}
+  </header>
+
+  {% if page.img %}
+    <div class="project-detail__media">
+      {%
+        include figure.liquid
+        loading="eager"
+        path=page.img
+        sizes="(min-width: 992px) 900px, 95vw"
+        alt=page.title
+        zoomable=true
+      %}
+    </div>
+  {% endif %}
+
+  <article class="project-detail__content">
+    {{ content }}
+  </article>
+</div>

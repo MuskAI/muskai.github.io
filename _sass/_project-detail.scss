@@ -1,0 +1,139 @@
+.project-detail {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+
+  &__back {
+    display: inline-flex;
+    gap: 0.4rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+
+  &__header {
+    margin-bottom: 2rem;
+
+    .post-title {
+      margin-bottom: 0.75rem;
+    }
+
+    .post-description {
+      max-width: 65ch;
+      margin-bottom: 0;
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  &__link {
+    display: inline-flex;
+    gap: 0.35rem;
+    align-items: center;
+    padding: 0.55rem 0.85rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.35rem;
+    color: var(--global-text-color);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1;
+    white-space: nowrap;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+
+    &:active {
+      transform: translateY(1px);
+    }
+
+    &--primary {
+      border-color: var(--global-theme-color);
+      background-color: var(--global-theme-color);
+      color: var(--global-bg-color);
+
+      &:hover {
+        background-color: transparent;
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  &__media {
+    overflow: hidden;
+    margin-bottom: 2.75rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.35rem;
+    background-color: var(--global-card-bg-color);
+
+    figure {
+      margin: 0;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      max-height: 540px;
+      object-fit: contain;
+    }
+  }
+
+  &__content {
+    max-width: 760px;
+
+    h2 {
+      margin-top: 2.75rem;
+      margin-bottom: 0.8rem;
+      font-size: 1.5rem;
+    }
+
+    p,
+    li {
+      line-height: 1.75;
+    }
+
+    .project-personal-note {
+      margin-top: 1rem;
+      padding: 1rem 1.15rem;
+      border-left: 3px solid var(--global-theme-color);
+      background-color: var(--global-card-bg-color);
+      color: var(--global-text-color);
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .project-detail {
+    &__links {
+      gap: 0.6rem;
+    }
+
+    &__link {
+      padding: 0.55rem 0.75rem;
+    }
+
+    &__media {
+      margin-bottom: 2rem;
+    }
+
+    &__content h2 {
+      margin-top: 2.25rem;
+      font-size: 1.35rem;
+    }
+  }
+}
