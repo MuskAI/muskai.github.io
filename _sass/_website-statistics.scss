@@ -31,7 +31,7 @@
     min-width: 0;
     align-items: center;
     gap: 0.45rem;
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
     font-family: monospace;
     font-size: 0.72rem;
 
@@ -93,7 +93,7 @@
 
     dt {
       margin-bottom: 0.25rem;
-      color: var(--global-text-color-light);
+      color: var(--global-text-color);
       font-size: 0.66rem;
       font-weight: 600;
       letter-spacing: 0.035em;
@@ -124,7 +124,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
     font-family: monospace;
     font-size: 0.64rem;
     line-height: 1;
@@ -175,13 +175,13 @@
     height: 100%;
     align-items: center;
     margin: 0;
-    color: var(--global-text-color-light);
+    color: var(--global-text-color);
     font-size: 0.72rem;
   }
 
   &.is-error {
     .website-statistics__status-dot {
-      background: var(--global-text-color-light);
+      background: var(--global-text-color);
     }
 
     .website-statistics__chart-dates {

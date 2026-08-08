@@ -220,6 +220,23 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.emoji-icon {
+  display: inline-block;
+  width: 1.35em;
+  margin-right: 0.16em;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  vertical-align: -0.08em;
+}
+
+h2 .emoji-icon,
+h3 .emoji-icon {
+  font-size: 0.92em;
+}
+
 .about-experience {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -249,7 +266,7 @@ ul.task-list input[type="checkbox"] {
     }
 
     time {
-      color: var(--global-text-color-light);
+      color: var(--global-text-color);
       font-family: monospace;
       font-size: 0.85rem;
     }
@@ -261,7 +278,7 @@ ul.task-list input[type="checkbox"] {
 
     small {
       margin-top: 0.1rem;
-      color: var(--global-text-color-light);
+      color: var(--global-text-color);
       font-size: 0.9rem;
       line-height: 1.45;
     }
