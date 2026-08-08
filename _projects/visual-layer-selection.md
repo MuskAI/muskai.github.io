@@ -13,6 +13,10 @@ links:
     url: https://underline.io/events/502/sessions/20780/lecture/130091-multimodal-language-models-see-better-when-they-look-shallower
   - label: View Poster
     url: https://underline.io/events/502/sessions/20780/lecture/130091-multimodal-language-models-see-better-when-they-look-shallower?tab=poster
+  - label: Xiaohongshu Coverage
+    url: https://www.xiaohongshu.com/explore/68136c36000000002100ec11
+  - label: WeChat Coverage
+    url: https://mp.weixin.qq.com/s/nraGGknDtCmZ_8SmTdzsdA
 ---
 
 ## Background
