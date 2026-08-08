@@ -64,6 +64,14 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Website statistics -->
+    {% if page.website_statistics and site.umami.public_share.slug %}
+      <h2>
+        <a href="{{ site.umami.public_share.url }}" target="_blank" rel="noopener noreferrer" style="color: inherit">website statistics</a>
+      </h2>
+      {% include website_statistics.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">

@@ -13,6 +13,7 @@ profile:
     <p class="profile-motto">Stay hungry, Stay foolish.</p>
 
 selected_papers: true
+website_statistics: true
 social: true
 
 announcements:

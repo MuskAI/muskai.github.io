@@ -1,0 +1,65 @@
+<section
+  class="website-statistics"
+  data-website-statistics
+  data-website-id="{{ site.umami.website_id | escape }}"
+  data-share-slug="{{ site.umami.public_share.slug | escape }}"
+  data-api-url="{{ site.umami.public_share.api_url | escape }}"
+  aria-label="Website activity for the last 30 days"
+  aria-busy="true"
+>
+  <div class="website-statistics__intro">
+    <div>
+      <p class="website-statistics__eyebrow"><i class="ti ti-activity" aria-hidden="true"></i> Live site activity</p>
+      <p class="website-statistics__description">A privacy-friendly view of traffic to this website over the last 30 days.</p>
+    </div>
+    <div class="website-statistics__status" role="status" aria-live="polite">
+      <span class="website-statistics__status-dot" aria-hidden="true"></span>
+      <span data-statistics-status>Loading live data</span>
+    </div>
+  </div>
+
+  <dl class="website-statistics__metrics">
+    <div class="website-statistics__metric">
+      <dt>Page views</dt>
+      <dd data-statistic="pageviews">--</dd>
+    </div>
+    <div class="website-statistics__metric">
+      <dt>Visitors</dt>
+      <dd data-statistic="visitors">--</dd>
+    </div>
+    <div class="website-statistics__metric">
+      <dt>Visits</dt>
+      <dd data-statistic="visits">--</dd>
+    </div>
+    <div class="website-statistics__metric">
+      <dt>Bounce rate</dt>
+      <dd data-statistic="bounce-rate">--</dd>
+    </div>
+  </dl>
+
+  <div class="website-statistics__trend">
+    <div class="website-statistics__trend-header">
+      <div>
+        <p class="website-statistics__trend-title">Daily page views</p>
+        <p class="website-statistics__trend-caption">Last 30 days</p>
+      </div>
+      <span class="website-statistics__trend-peak" data-statistics-peak>Peak --</span>
+    </div>
+    <div class="website-statistics__chart" data-statistics-chart>
+      <div class="website-statistics__chart-skeleton" aria-hidden="true"></div>
+    </div>
+    <p class="sr-only" data-statistics-summary></p>
+    <div class="website-statistics__chart-dates" aria-hidden="true">
+      <span data-statistics-start-date>--</span>
+      <span data-statistics-end-date>--</span>
+    </div>
+  </div>
+
+  <div class="website-statistics__footer">
+    <p>Aggregated by Umami using cookie-free tracking.</p>
+    <a href="{{ site.umami.public_share.url }}" target="_blank" rel="noopener noreferrer">
+      Open public analytics
+      <i class="ti ti-arrow-up-right" aria-hidden="true"></i>
+    </a>
+  </div>
+</section>

@@ -635,3 +635,7 @@ jsonresume: []
 umami:
   website_id: 9ed140e9-ccff-42fd-b866-f15b28bff88a
   script_url: https://cloud.umami.is/script.js
+  public_share:
+    slug: F28Scx1nUWBfo0Ov
+    url: https://cloud.umami.is/share/F28Scx1nUWBfo0Ov
+    api_url: https://gateway-us.umami.is/api

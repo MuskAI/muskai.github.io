@@ -1,0 +1,309 @@
+.website-statistics {
+  position: relative;
+  overflow: hidden;
+  margin: 0.5rem 0 2.75rem;
+  border: 1px solid var(--global-divider-color);
+  border-top: 3px solid var(--global-theme-color);
+  background: var(--global-card-bg-color);
+
+  &::after {
+    position: absolute;
+    top: -5rem;
+    right: -5rem;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background: var(--global-theme-color);
+    content: "";
+    opacity: 0.045;
+    pointer-events: none;
+  }
+
+  &__intro,
+  &__footer {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1.4rem 1.5rem;
+  }
+
+  &__eyebrow,
+  &__description,
+  &__trend-title,
+  &__trend-caption,
+  &__footer p {
+    margin: 0;
+  }
+
+  &__eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+
+    i {
+      color: var(--global-theme-color);
+      font-size: 1rem;
+    }
+  }
+
+  &__description {
+    max-width: 33rem;
+    margin-top: 0.4rem;
+    color: var(--global-text-color-light);
+    font-size: 0.92rem;
+    line-height: 1.55;
+  }
+
+  &__status {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.1rem;
+    color: var(--global-text-color-light);
+    font-family: monospace;
+    font-size: 0.74rem;
+  }
+
+  &__status-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--global-theme-color);
+    box-shadow: 0 0 0 0.2rem color-mix(in srgb, var(--global-theme-color) 14%, transparent);
+  }
+
+  &__metrics {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin: 0;
+    border-top: 1px solid var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  &__metric {
+    min-width: 0;
+    padding: 1.2rem 1.5rem 1.15rem;
+
+    &:not(:first-child) {
+      border-left: 1px solid var(--global-divider-color);
+    }
+
+    dt {
+      margin-bottom: 0.35rem;
+      color: var(--global-text-color-light);
+      font-size: 0.73rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    dd {
+      min-height: 2.5rem;
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(1.65rem, 4vw, 2.2rem);
+      font-variant-numeric: tabular-nums;
+      line-height: 1.1;
+    }
+  }
+
+  &__trend {
+    padding: 1.35rem 1.5rem 1.15rem;
+  }
+
+  &__trend-header,
+  &__chart-dates {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  &__trend-title {
+    font-size: 0.9rem;
+    font-weight: 650;
+  }
+
+  &__trend-caption,
+  &__trend-peak,
+  &__chart-dates {
+    color: var(--global-text-color-light);
+    font-family: monospace;
+    font-size: 0.72rem;
+  }
+
+  &__trend-caption {
+    margin-top: 0.15rem;
+  }
+
+  &__trend-peak {
+    margin-top: 0.1rem;
+  }
+
+  &__chart {
+    height: 10.25rem;
+    margin-top: 0.9rem;
+
+    svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+  }
+
+  &__grid-line {
+    stroke: var(--global-divider-color);
+    stroke-width: 1;
+  }
+
+  &__chart-area {
+    fill: var(--global-theme-color);
+    fill-opacity: 0.075;
+  }
+
+  &__chart-line {
+    fill: none;
+    stroke: var(--global-theme-color);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2.5;
+    vector-effect: non-scaling-stroke;
+  }
+
+  &__chart-point {
+    fill: var(--global-card-bg-color);
+    stroke: var(--global-theme-color);
+    stroke-width: 2;
+    vector-effect: non-scaling-stroke;
+  }
+
+  &__chart-skeleton {
+    width: 100%;
+    height: 100%;
+    background:
+      linear-gradient(160deg, transparent 48%, color-mix(in srgb, var(--global-theme-color) 16%, transparent) 49% 51%, transparent 52%),
+      repeating-linear-gradient(to bottom, var(--global-divider-color) 0 1px, transparent 1px 50%);
+    background-size:
+      100% 100%,
+      100% 100%;
+    opacity: 0.65;
+  }
+
+  &__chart-dates {
+    margin-top: 0.15rem;
+  }
+
+  &__footer {
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid var(--global-divider-color);
+
+    p {
+      color: var(--global-text-color-light);
+      font-size: 0.77rem;
+    }
+
+    a {
+      display: inline-flex;
+      flex: 0 0 auto;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.82rem;
+      font-weight: 600;
+
+      &:hover {
+        text-decoration: none;
+
+        i {
+          transform: translate(0.12rem, -0.12rem);
+        }
+      }
+
+      i {
+        transition: transform 160ms ease;
+      }
+    }
+  }
+
+  &__error-message {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border: 1px dashed var(--global-divider-color);
+    color: var(--global-text-color-light);
+    font-size: 0.86rem;
+    text-align: center;
+  }
+
+  &.is-error {
+    .website-statistics__status-dot {
+      background: var(--global-text-color-light);
+      box-shadow: none;
+    }
+
+    .website-statistics__chart-dates {
+      visibility: hidden;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .website-statistics {
+    &__intro,
+    &__footer {
+      flex-direction: column;
+      gap: 0.9rem;
+    }
+
+    &__status {
+      margin-top: 0;
+    }
+
+    &__metrics {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    &__metric {
+      &:nth-child(3) {
+        border-left: 0;
+      }
+
+      &:nth-child(n + 3) {
+        border-top: 1px solid var(--global-divider-color);
+      }
+    }
+
+    &__chart {
+      height: 8.5rem;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .website-statistics {
+    &__intro,
+    &__metric,
+    &__trend,
+    &__footer {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .website-statistics__footer a i {
+    transition: none;
+  }
+}
