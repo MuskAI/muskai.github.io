@@ -85,6 +85,11 @@ ninja.data = [{
           description: "Studying which visual encoder layers provide the most useful signals for multimodal language models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/visual-layer-selection/";
+            },},{id: "projects-无铭ai",
+          title: '无铭AI',
+          description: "A WeChat-based AI assistant combining conversational AI, image generation, document reading, speaking practice, and scenario writing.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/wuming-ai/";
             },},{
         id: 'social-email',
         title: 'email',
