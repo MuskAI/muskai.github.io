@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Research projects on multimodal language models and visual representation.",
+          description: "Selected research and applied AI projects in multimodal learning and digital content forensics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -65,6 +65,11 @@ ninja.data = [{
           description: "Analyzing how visual-language connectors preserve or compress information in multimodal models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/connector-selection/";
+            },},{id: "projects-慧鉴ai",
+          title: '慧鉴AI',
+          description: "A digital content forensics agent combining rapid screening, multi-source review, and evidence reporting for images, videos, and documents.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/huijian-ai/";
             },},{id: "projects-multi-layer-feature-fusion",
           title: 'Multi-Layer Feature Fusion',
           description: "Comparing methods for combining complementary visual features across encoder layers.",
