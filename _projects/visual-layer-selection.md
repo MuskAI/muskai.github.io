@@ -3,7 +3,7 @@ layout: project
 title: Visual Layer Selection
 description: Studying which visual encoder layers provide the most useful signals for multimodal language models.
 img: assets/img/publication_preview/emnlp-2025-visual-layers.png
-importance: 1
+importance: 2
 permalink: /projects/visual-layer-selection/
 links:
   - label: Read Paper

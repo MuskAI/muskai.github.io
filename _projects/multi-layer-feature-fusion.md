@@ -3,7 +3,7 @@ layout: project
 title: Multi-Layer Feature Fusion
 description: Comparing methods for combining complementary visual features across encoder layers.
 img: assets/img/publication_preview/cvpr-2025-fusion-paradigms.png
-importance: 2
+importance: 3
 permalink: /projects/multi-layer-feature-fusion/
 links:
   - label: Read Paper
