@@ -49,9 +49,9 @@
     const scaleMax = Math.max(peakValue, 1);
     const total = values.reduce((sum, value) => sum + value, 0);
     const width = 720;
-    const height = 164;
-    const top = 12;
-    const bottom = 148;
+    const height = 58;
+    const top = 4;
+    const bottom = 52;
     const usableHeight = bottom - top;
     const xStep = width / (days.length - 1);
     const points = days.map(({ value }, index) => ({
@@ -71,16 +71,11 @@
     title.textContent = "Daily page views over the last 30 days";
     svg.append(title);
 
-    [top, top + usableHeight / 2, bottom].forEach((y) => {
+    [top, bottom].forEach((y) => {
       svg.append(createSvgElement("line", { x1: 0, y1: y, x2: width, y2: y, class: "website-statistics__grid-line" }));
     });
     svg.append(createSvgElement("path", { d: areaPath, class: "website-statistics__chart-area" }));
     svg.append(createSvgElement("path", { d: linePath, class: "website-statistics__chart-line" }));
-    points
-      .filter(({ value }) => value > 0)
-      .forEach(({ x, y }) => {
-        svg.append(createSvgElement("circle", { cx: x, cy: y, r: 3.25, class: "website-statistics__chart-point" }));
-      });
 
     chart.replaceChildren(svg);
     peak.textContent = `Peak ${numberFormatter.format(peakValue)}`;
@@ -92,11 +87,11 @@
   const showError = () => {
     root.classList.add("is-error");
     root.setAttribute("aria-busy", "false");
-    status.textContent = "Live data temporarily unavailable";
+    status.textContent = "Data unavailable";
     chart.replaceChildren();
     const message = document.createElement("p");
     message.className = "website-statistics__error-message";
-    message.textContent = "The public dashboard is still available from the link below.";
+    message.textContent = "Open the public analytics link for current data.";
     chart.append(message);
     peak.textContent = "Umami Cloud";
     summary.textContent = "Live website statistics are temporarily unavailable.";
@@ -149,7 +144,7 @@
 
       root.classList.add("is-ready");
       root.setAttribute("aria-busy", "false");
-      status.textContent = "Live data updated now";
+      status.textContent = "Updated now";
     } catch (error) {
       showError();
     } finally {
