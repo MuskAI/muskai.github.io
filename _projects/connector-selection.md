@@ -3,7 +3,7 @@ layout: project
 title: Connector Selection
 description: Analyzing how visual-language connectors preserve or compress information in multimodal models.
 img: assets/img/publication_preview/emnlp-2024-connector-structures.png
-importance: 4
+importance: 5
 permalink: /projects/connector-selection/
 links:
   - label: Read Paper

@@ -5,6 +5,8 @@ description: A digital content forensics agent combining rapid screening, multi-
 img: assets/img/project_preview/huijian-ai.png
 importance: 0
 permalink: /projects/huijian-ai/
+start_date: 2026-05
+project_date: 2026.05 - Present
 links:
   - label: Visit Website
     url: https://www.rrreal.cn/

@@ -769,6 +769,14 @@ footer.sticky-bottom {
     }
   }
 
+  .project-date {
+    margin-bottom: 0.65rem;
+    color: var(--global-text-color);
+    font-family: monospace;
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
+  }
+
   .col {
     padding-bottom: 1rem;
   }

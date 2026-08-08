@@ -24,6 +24,14 @@
       margin-bottom: 0.75rem;
     }
 
+    .project-detail__date {
+      margin-bottom: 0.65rem;
+      color: var(--global-text-color);
+      font-family: monospace;
+      font-size: 0.85rem;
+      letter-spacing: 0.02em;
+    }
+
     .post-description {
       max-width: 65ch;
       margin-bottom: 0;

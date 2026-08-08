@@ -5,6 +5,8 @@ description: An enterprise expert-agent platform offering domain-specific guidan
 img: assets/img/project_preview/expert-agent.png
 importance: 1
 permalink: /projects/expert-agent/
+start_date: 2026-05
+project_date: 2026.05 - Present
 links:
   - label: 访问企管星
     url: https://agent.zjqgx.com/platform/home
