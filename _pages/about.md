@@ -57,7 +57,7 @@ Always up for knowledge sharing and potential collaborations. If you share simil
       </li>
       <li>
         <time datetime="2026">2026</time>
-        <span><strong>Oral Room Monitor and Poster Assistant</strong><small>EMNLP 2026</small></span>
+        <span><strong>Volunteer: Oral Room Monitor and Poster Assistant</strong><small>EMNLP 2026</small></span>
       </li>
     </ul>
   </section>
