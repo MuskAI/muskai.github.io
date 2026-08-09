@@ -49,15 +49,6 @@
   <script defer src="{{ '/assets/js/mermaid-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-{% if page.research_constellation %}
-  <script
-    defer
-    src="{{ site.third_party_libraries.d3.url.js }}"
-    integrity="{{ site.third_party_libraries.d3.integrity.js }}"
-    crossorigin="anonymous"
-  ></script>
-{% endif %}
-
 {% if page.research_widgets %}
   <script defer src="{{ '/assets/js/research-widgets.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
