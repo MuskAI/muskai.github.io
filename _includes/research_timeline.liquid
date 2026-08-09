@@ -1,0 +1,13 @@
+<section class="research-timeline" aria-labelledby="research-timeline-title">
+  <h2 id="research-timeline-title"><i class="ti ti-route" aria-hidden="true"></i> a few milestones</h2>
+  <div class="research-timeline__track">
+    {% for item in site.data.research_widgets.timeline %}
+      <a class="research-timeline__item" href="{{ item.url | relative_url }}">
+        <time>{{ item.date }}</time>
+        <span class="research-timeline__marker" aria-hidden="true"></span>
+        <strong>{{ item.title }}</strong>
+        <span>{{ item.text }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,32 @@
+{% assign round = site.data.research_widgets.challenge_rounds[0] %}
+<section
+  class="home-challenge"
+  data-daily-challenge
+  data-clue="{{ round.clue | escape }}"
+  aria-labelledby="home-challenge-title"
+>
+  <div class="home-challenge__copy">
+    <p class="home-challenge__kicker">A 20-second experiment</p>
+    <h2 id="home-challenge-title"><i class="ti ti-scan-eye" aria-hidden="true"></i> can you spot the AI image?</h2>
+    <p>Choose one image, then inspect the clue behind the answer.</p>
+    <div class="challenge-feedback" data-challenge-feedback role="status" aria-live="polite">Make a choice to reveal the explanation.</div>
+    <a class="home-challenge__more" href="{{ '/playground/' | relative_url }}"
+      >Continue in the playground <i class="ti ti-arrow-right" aria-hidden="true"></i
+    ></a>
+  </div>
+  <div class="home-challenge__images">
+    {% assign home_images = round.images | slice: 0, 2 %}
+    {% for image in home_images %}
+      <button
+        class="challenge-image"
+        type="button"
+        data-challenge-choice
+        data-is-ai="{{ image.ai }}"
+        aria-label="Choose image {{ forloop.index }} as AI-generated"
+      >
+        <img src="{{ image.src | relative_url }}" alt="{{ image.alt }}" loading="lazy">
+        <span aria-hidden="true">{{ forloop.index }}</span>
+      </button>
+    {% endfor %}
+  </div>
+</section>

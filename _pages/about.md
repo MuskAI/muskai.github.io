@@ -15,6 +15,7 @@ profile:
 selected_papers: true
 website_statistics: true
 social: true
+research_widgets: true
 
 announcements:
   enabled: true

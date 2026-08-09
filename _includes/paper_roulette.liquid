@@ -1,0 +1,34 @@
+<section class="paper-roulette" data-paper-roulette aria-labelledby="paper-roulette-title">
+  <div class="paper-roulette__heading">
+    <div>
+      <h2 id="paper-roulette-title"><i class="ti ti-dice-5" aria-hidden="true"></i> paper roulette</h2>
+      <p>Not sure where to begin? Let chance choose a research question.</p>
+    </div>
+    <button class="research-button" type="button" data-paper-roulette-trigger>
+      <i class="ti ti-sparkles" aria-hidden="true"></i>
+      Pick another paper
+    </button>
+  </div>
+
+  <div class="paper-roulette__stage" data-paper-roulette-stage aria-live="polite">
+    {% for paper in site.data.research_widgets.papers %}
+      <article class="paper-roulette__paper{% unless forloop.first %} is-hidden{% endunless %}" data-paper-card>
+        <img
+          src="{{ paper.image | relative_url }}"
+          alt="Preview for {{ paper.title }}"
+          loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+        >
+        <div class="paper-roulette__copy">
+          <p class="paper-roulette__venue">{{ paper.venue }}</p>
+          <h3>{{ paper.title }}</h3>
+          <p class="paper-roulette__question">{{ paper.question }}</p>
+          <p>{{ paper.finding }}</p>
+          <div class="paper-roulette__links">
+            <a href="{{ paper.url }}" target="_blank" rel="external nofollow noopener">Read paper</a>
+            <a href="{{ paper.project_url | relative_url }}">Project notes</a>
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
