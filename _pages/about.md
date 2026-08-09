@@ -56,8 +56,8 @@ Always up for knowledge sharing and potential collaborations. If you share simil
         <span><strong>Reviewer</strong><small>ACM CIKM 2026</small></span>
       </li>
       <li>
-        <time datetime="2026">2026</time>
-        <span><strong>Volunteer: Oral Room Monitor and Poster Assistant</strong><small>EMNLP 2026</small></span>
+        <time datetime="2025-11">Nov 2025</time>
+        <span><strong>Volunteer: Oral Room Monitor and Poster Assistant</strong><small>EMRP 2025</small></span>
       </li>
     </ul>
   </section>
@@ -65,7 +65,7 @@ Always up for knowledge sharing and potential collaborations. If you share simil
     <h3 id="teaching-title"><span class="emoji-icon" aria-hidden="true">🎓</span>teaching</h3>
     <ul>
       <li>
-        <time datetime="2024">2024</time>
+        <time datetime="2025">2025</time>
         <span><strong>Teaching Assistant</strong><small>Fundamentals and Applications of Artificial Intelligence</small></span>
       </li>
       <li>
