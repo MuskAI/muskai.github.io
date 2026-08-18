@@ -57,7 +57,7 @@ Always up for knowledge sharing and potential collaborations. If you share simil
       </li>
       <li>
         <time datetime="2025-11">Nov 2025</time>
-        <span><strong>Volunteer: Oral Room Monitor and Poster Assistant</strong><small>EMRP 2025</small></span>
+        <span><strong>Volunteer: Oral Room Monitor and Poster Assistant</strong><small>EMNLP 2025</small></span>
       </li>
     </ul>
   </section>
