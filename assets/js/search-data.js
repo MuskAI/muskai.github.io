@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-research-thread-on-visual-information-in-multimodal-llms",
+        },{id: "post-推荐阅读-分久必合-统一的伪造图像检测",
+        
+          title: "推荐阅读｜分久必合：统一的伪造图像检测",
+        
+        description: "当伪造方式不再泾渭分明，检测系统也该从多个专科模型走向一个统一入口。",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/unified-fid-reading-note/";
+          
+        },
+      },{id: "post-a-research-thread-on-visual-information-in-multimodal-llms",
         
           title: "a research thread on visual information in multimodal LLMs",
         
